@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <Header/>
+    <GithubExplorer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Header from "./components/Header";
+import GithubExplorer from "./components/GithubExplorer";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Header,
+    GithubExplorer
   }
 };
 </script>
